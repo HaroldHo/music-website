@@ -7,7 +7,7 @@
 
 ## 项目说明
 
-本音乐网站的开发主要利用前端框架VUE开发客户端和管理端，后端接口用Spring Boot来实现，数据持久化用的是 MyBatis，数据用MySQL来进行存储。实现思路可以参考[这里](https://yin-hongwei.github.io/2019/03/04/music/)。
+本音乐网站的开发主要利用前端框架VUE开发客户端和管理端，后端接口用Spring Boot来实现，数据持久化用的是 MyBatis，数据用MySQL来进行存储。
 
 <br/>
 
@@ -79,7 +79,7 @@ vue + vue-router + vuex + axios +  element-ui
 #### 1、下载项目到本地
 
 ```
-git clone https://github.com/Yin-Hongwei/music-website.git
+git clone https://github.com/HaroldHo/music-website.git
 ```
 
 #### 2、下载数据库中记录的资源
