@@ -89,7 +89,7 @@ git clone https://github.com/HaroldHo/music-website.git
 #### 3、修改
 1）数据库：将sql文件夹中的 tp_music.sql 文件导入数据库。（mysql 版本不能低于5.7）
 
-2）music-server：启动后端服务之前，有一些地方需要修改，先去 /music-website/music-server/src/main/resources 这个目录下的文件里修改自己的 spring.datasource.username 和 spring.datasource.password，并且修改下面蓝色显示的文件名中 MyPicConfig 类下的 addResourceLocations方法中的路径，否则资源加载不了。（Mac 和 win 下路径有些差异，我的是Mac上的路径，win 上 需要在 file:后标明是哪个盘，例如："file:C:/user/XXX"）
+2）music-server：启动后端服务之前，有一些地方需要修改，先去 /music-website/music-server/src/main/resources 这个目录下的文件里修改自己的 spring.datasource.username 和 spring.datasource.password，并且修改下面蓝色显示的文件名中 MyPicConfig 类下的 addResourceLocations方法中的路径，否则资源加载不了。（linux 和 win 下路径有些差异，win 上 需要在 file:后标明是哪个盘，例如："file:C:/user/XXX"）
 
 ![](https://tva1.sinaimg.cn/large/006tNbRwly1gbkqbc66q9j33fr0u07u0.jpg)
 
